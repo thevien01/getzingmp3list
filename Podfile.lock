@@ -1,0 +1,27 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - SwiftSoup (1.7.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - SwiftSoup
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  SwiftSoup: e5f61d37e3d802a4b5db81b4945de3da9bfdf115
+
+PODFILE CHECKSUM: 712926ae17954d473d54f7f11246ede5fd9b6455
+
+COCOAPODS: 1.4.0
