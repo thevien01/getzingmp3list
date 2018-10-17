@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A00F934596174E9D6310FD9 /* Pods_DownloadMusicMp3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D96BE4F866DD2066F2E5521 /* Pods_DownloadMusicMp3.framework */; };
+		D7581A702176EE9C00CAB1A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7581A6F2176EE9C00CAB1A4 /* README.md */; };
 		D769FC502164830900FFC9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769FC4F2164830900FFC9DE /* AppDelegate.swift */; };
 		D769FC522164830900FFC9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769FC512164830900FFC9DE /* ViewController.swift */; };
 		D769FC542164830A00FFC9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D769FC532164830A00FFC9DE /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		2220E6D9926BE2661710820A /* Pods-DownloadMusicMp3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadMusicMp3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadMusicMp3/Pods-DownloadMusicMp3.debug.xcconfig"; sourceTree = "<group>"; };
 		4D96BE4F866DD2066F2E5521 /* Pods_DownloadMusicMp3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadMusicMp3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F8037D6F095C0C94683019 /* Pods-DownloadMusicMp3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadMusicMp3.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadMusicMp3/Pods-DownloadMusicMp3.release.xcconfig"; sourceTree = "<group>"; };
+		D7581A6F2176EE9C00CAB1A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D769FC4C2164830900FFC9DE /* DownloadMusicMp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadMusicMp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D769FC4F2164830900FFC9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D769FC512164830900FFC9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		D769FC432164830900FFC9DE = {
 			isa = PBXGroup;
 			children = (
+				D7581A6F2176EE9C00CAB1A4 /* README.md */,
 				D769FC4E2164830900FFC9DE /* DownloadMusicMp3 */,
 				D769FC4D2164830900FFC9DE /* Products */,
 				CFE63293E470298848848F73 /* Pods */,
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7581A702176EE9C00CAB1A4 /* README.md in Resources */,
 				D769FC542164830A00FFC9DE /* Assets.xcassets in Resources */,
 				D769FC572164830A00FFC9DE /* Main.storyboard in Resources */,
 			);
