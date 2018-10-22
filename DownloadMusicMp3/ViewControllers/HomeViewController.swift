@@ -37,6 +37,7 @@ class HomeViewController: NSViewController{
                     self.tableView.reloadData()
                 }
                 
+                let url        = self.list[0].source128.replacingOccurrences(of: "//", with: "https://")
                 var counter    = 0
                 
                 for mp3 in self.list{
@@ -59,14 +60,9 @@ class HomeViewController: NSViewController{
                                 self.tableView.reloadData(forRowIndexes: IndexSet([counter]), columnIndexes: IndexSet([3]))
                             }
                             
-                            let url        = self.list[counter].source128.replacingOccurrences(of: "//", with: "https://")
-
                             ZingMp3Store.sharedInstance.downloadMp3File(fileName: fileName, url: URL(string:   url)!, desinationPath: pathToSave, completion: { (success, error) in
                                 DispatchQueue.main.async {
                                     counter += 1
-                                    if counter == self.list.count {
-                                        return;
-                                    }
                                     self.list[counter].statusDownload = .downloaded
                                     self.tableView.reloadData(forRowIndexes: IndexSet([counter]), columnIndexes: IndexSet([3]))
                                 }
